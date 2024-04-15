@@ -13,7 +13,7 @@
 // Nessy
 // student/piscine/printprogramname$
 
-package main
+package piscine
 
 import (
 	"os"
@@ -21,7 +21,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
+func PrintProgramname() {
 	args := os.Args[1:] // Exclude the program name from the arguments
 	// Print arguments in ASCII order
 	for len(args) > 0 {

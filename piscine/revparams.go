@@ -12,7 +12,7 @@
 
 // Functions allowed: github.com/01-edu/z01.PrintRune, os.Args,
 
-package main
+package piscine
 
 import (
 	"os"
@@ -20,7 +20,7 @@ import (
 	"github.com/01-edu/z01"
 )
 
-func main() {
+func RevParams() {
 	// Iterate through the arguments received from the command line
 	for _, arg := range os.Args[1:] {
 		// Print each argument followed by a newline
